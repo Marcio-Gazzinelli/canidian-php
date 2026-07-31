@@ -132,7 +132,7 @@ if (isset($_SESSION['nome_user'])) {
 
 
     <main class="main-detalhes">
-        <div class="container-detalhes">
+        <div class="container-detalhess">
 
 
                 <div class="detalhes-publicacao">
