@@ -108,7 +108,25 @@ service/Banco_Formap.sql
 
 ## 📷 Screenshots
 
-*Placeholder for application screenshots.*
+### Home
+
+![Home](screenshots/home.png)
+
+### Sign Up
+
+![Sign Up](screenshots/sign-up.png)
+
+### User Profile
+
+![Profile](screenshots/profile.png)
+
+### Forum Post
+
+![Forum Post](screenshots/post.png)
+
+### Support
+
+![Support](screenshots/support.png)
 
 ---
 
