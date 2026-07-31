@@ -1,34 +1,34 @@
-Canidian (Restored PHP Project)
+# Canidian (Restored PHP/MySQL Project)
 
-> **Projeto acadêmico restaurado desenvolvido em PHP + MySQL.**
+> **Restored academic project developed using PHP and MySQL.**
 
-## 📖 Sobre o projeto
+## 📖 About the Project
 
-O **Canidian** é uma plataforma web de fóruns desenvolvida como projeto acadêmico utilizando **PHP** e **MySQL**.
+**Canidian** is a web-based discussion forum platform developed as an academic project using **PHP** and **MySQL**.
 
-O sistema permite que os usuários:
+The system allows users to:
 
-- Criem uma conta
-- Façam login
-- Criem publicações
-- Curtam publicações
-- Comentem em publicações
-- Editem suas próprias publicações
-- Naveguem por diferentes fóruns
-
----
-
-## ⚠️ Status do projeto
-
-Este repositório contém uma **versão restaurada** do projeto original.
-
-O código-fonte original foi recuperado após ter sido perdido num site de hospedagem que não está mais no ar.
-
-Durante a restauração, algumas funcionalidades foram ajustadas apenas o suficiente para voltar a funcionar. Por isso, o projeto **não representa uma versão final ou totalmente refinada**, mantendo sua estrutura original sempre que possível.
+- Create an account
+- Log in
+- Create posts
+- Like posts
+- Comment on posts
+- Edit their own posts
+- Browse different discussion forums
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## ⚠️ Project Status
+
+This repository contains a **restored version** of the original project.
+
+The original source code was recovered after being lost on a web hosting service that is no longer available.
+
+During the restoration process, some features were adjusted just enough to make the application functional again. Therefore, this project **does not represent a final or fully polished version**, and its original structure has been preserved whenever possible.
+
+---
+
+## 🛠 Technologies Used
 
 - PHP
 - MySQL
@@ -39,47 +39,47 @@ Durante a restauração, algumas funcionalidades foram ajustadas apenas o sufici
 
 ---
 
-## 🚀 Como executar
+## 🚀 Getting Started
 
-### Pré-requisitos
+### Requirements
 
 - WampServer
 - PHP
 - MySQL
 
-### Passo a passo
+### Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/Marcio-Gazzinelli/canidian-php.git
 ```
 
-2. Copie a pasta do projeto para:
+2. Copy the project folder to:
 
 ```
 C:\wamp64\www\
 ```
 
-3. Inicie o **Apache** e o **MySQL** pelo WampServer.
+3. Start **Apache** and **MySQL** using WampServer.
 
-4. Abra o **phpMyAdmin**.
+4. Open **phpMyAdmin**.
 
-5. Crie um banco de dados (por exemplo, `usuario`).
+5. Create a database (for example, `usuario`).
 
-6. Importe o arquivo:
+6. Import the SQL script:
 
 ```
 service/Banco_Formap.sql
 ```
 
-7. Configure a conexão com o banco em:
+7. Configure the database connection in:
 
 ```
 service/config.php
 ```
 
-Exemplo:
+Example:
 
 ```php
 $dbHost = "localhost";
@@ -88,7 +88,7 @@ $dbPassword = "";
 $dbName = "usuario";
 ```
 
-8. Acesse no navegador:
+8. Open the project in your browser:
 
 ```
 http://localhost/canidian/
@@ -96,9 +96,9 @@ http://localhost/canidian/
 
 ---
 
-## 🗄 Banco de dados
+## 🗄 Database
 
-O script SQL necessário para criar todas as tabelas e registros iniciais está disponível em:
+The SQL script required to create the database schema and initial records is available at:
 
 ```
 service/Banco_Formap.sql
@@ -106,12 +106,12 @@ service/Banco_Formap.sql
 
 ---
 
-## 📷 Capturas de tela
+## 📷 Screenshots
 
-*Espaço reservado para imagens da aplicação.*
+*Placeholder for application screenshots.*
 
 ---
 
-## 🎓 Finalidade
+## 🎓 Purpose
 
-Este projeto foi desenvolvido originalmente em grupo para fins acadêmicos e posteriormente restaurado para preservação, consulta e composição de portfólio.
+This project was originally developed as a group academic assignment and was later restored for preservation, reference, and portfolio purposes.
